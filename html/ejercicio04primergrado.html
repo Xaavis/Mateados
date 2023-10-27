@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad N°1 - Ejercicio 04 de Matemáticas</title>
+    <link rel="stylesheet" href="../assets/css/stylesejercicio.css">
+    <link rel="icon" href="../assets/images/ima.png">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Unidad N° 1</h1>
+        <h2>Ejercicio de Matemáticas 04</h2>
+        <p>Arrastra el tigre 4 veces al área designada.</p>
+        <div id="area" class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <img id="imagen" class="draggable" src="../assets/images/tigre.png" alt="Imagen para Arrastrar" draggable="true" ondragstart="drag(event)">
+        <div id="mensaje"></div>
+        <button id="retrocederBtn" class="btn" onclick="history.back()">Retroceder Página</button>
+        <button id="continuarBtn" class="btn" onclick="location.href='ejercicio05primergrado.html'">Continuar con el Siguiente Ejercicio</button>
+    </div>
+    <script src="../assets/js/scriptejercicio04.js"></script>
+</body>
+
+</html>
